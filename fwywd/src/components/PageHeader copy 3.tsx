@@ -32,7 +32,7 @@ export default function Header() : JSX.Element {
                         {/* itemはmenuのデータのurl, name */}
                         <ul className='grid grid-cols-4 gap-4'>
                             {menus.map((item, index) => (
-                                <li className='h-full font-semibold hover:opacity-50 text-primary-dark' 
+                                <li className='h-full font-semibold hover:opacity-50 text-primary-dark hover:cursor-pointer' 
                                 key={index}
                                 >
                                     <Scroll
